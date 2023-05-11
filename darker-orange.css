@@ -7,6 +7,7 @@
     --soft-white-gray-color: #aaa;
     --just-white: white;
     --just-black: black;
+    --danger: #ca0909;
 }
 
 :root .panels-3wFtMD {
@@ -396,4 +397,31 @@
 
 .reactionSelected-1aMb2K {
     background-color: var(--dark-gray-bg) !important;
+}
+
+.scrollerBase-1Pkza4 {
+    overflow-y: auto !important;
+}
+
+.colorDanger-3umuSx:hover {
+    background-color: var(--danger);
+}
+
+.scroller-nxCRu_ {
+    padding: 6px 8px 6px 8px !important;
+}
+
+.header-JUTO-g, .titleContainer-3fPic2, .contentRegion-3HkfJJ {
+    background-color: var(--darker-gray-bg);
+}
+
+.headerClickable-zGQJz3:hover, .headerDefault-1e6yjj:hover {
+    border: 2px solid var(--main-orange) !important;
+    border-radius: 0px;
+}
+
+.row-1PT9E8:focus-within {
+    border: 2px solid var(--main-orange) !important;
+    border-radius: 0px;
+    border-color: var(--main-orange) !important;
 }
