@@ -471,3 +471,12 @@
     background-color: var(--darker-gray-bg);
     border: 2px solid var(--dark-gray-bg);
 }
+
+.bar-wDIGjg {
+    border: 2px solid var(--main-cyan);
+}
+
+.newMessagesBar-1hF-9G {
+    background-color: var(--darker-cyan);
+    border: 2px solid var(--main-cyan);
+}
