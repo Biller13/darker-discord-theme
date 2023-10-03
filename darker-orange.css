@@ -105,6 +105,11 @@
     border-right: 2px solid var(--main-orange);
 }
 
+.listDefault-2F-w65 .clickable-1ctZ-H.selected-1oxcpH .content-1Tgc42 {
+    border: 2px solid var(--main-orange);
+    border-radius: 20px;
+}
+
 .vc-notification-root {
   border: 2px solid var(--main-orange) !important;
   background: var(--just-black) !important;
@@ -124,7 +129,7 @@
 .vc-spotify-button {
     background: none;
     color: var(--background-modifier-accent);
-    --vc-spotify-green: var(--main-orange);
+    --vc-spotify-green: var(--main-orange) !important;
     padding: 0;
     width: 32px;
     height: 32px;
@@ -240,14 +245,19 @@
     background: var(--main-orange);
 }
 
-.modeSelected-3DmyhH .content-1gYQeQ, .modeSelected-3DmyhH:hover .content-1gYQeQ {
+.modeSelected-3DmyhH, .modeSelected-3DmyhH:hover {
     border: 2px solid var(--main-orange) !important;
+    border-radius: 20px;
     background: var(--dark-gray-bg);
 }
 
-.content-1gYQeQ:hover {
+.modeSelected-3DmyhH .link-1_kTxV {
+    border-radius: 20px !important;
+}
+
+.containerDefault-YUSmu3:hover {
     border-left: 2px solid var(--main-orange);
-    background: var(--dark-gray-bg);
+    background: var(--darker-gray-bg);
 }
 
 .sidebar-1tnWFu {
@@ -256,6 +266,18 @@
 
 .container-1NXEtd {
     background: var(--darker-gray-bg) !important;
+}
+
+.unread-36eUEm {
+    background: var(--main-orange);
+}
+
+.modeUnread-3Cxepe .name-28HaxV {
+    color: var(--main-orange) !important;
+}
+
+.modeUnread-3Cxepe:hover .name-28HaxV {
+    color: var(--just-white) !important;
 }
 
 .content-1OG56Q {
@@ -372,20 +394,6 @@
     background: var(--main-orange);
 }
 
-[class^=userPopoutOuter-]:has([src*="219930494303862785"]) [class^=profileBadges-]::after {
-    content: '';
-    height: 22px;
-    width: 22px;
-    background: url('https://static-cdn.jtvnw.net/jtv_user_pictures/f5bae16b-4b94-4bfa-a5ea-e6d2c943add2-profile_image-70x70.png');
-    margin: 4px;
-    background-size: contain;
-    border-radius: 2px;
-}
-
-[class^=userPopoutOuter-] [class^=profileBadges-][class*=containerWithContent-]::after {
-  margin: 0 !important;
-}
-
 .reactors-1VXca7 {
     overflow-y: auto !important;
     background: var(--darker-gray-bg);
@@ -472,8 +480,19 @@
     border: 2px solid var(--dark-gray-bg);
 }
 
+.container-2o3qEW {
+    flex-direction: row !important;
+}
+
 .bar-wDIGjg {
-    border: 2px solid var(--main-orange);
+    border: 2px solid var(--main-orange) !important;
+}
+
+.unreadBar-elBRZx {
+    border: 2px solid var(--main-orange) !important;
+    background-color: var(--darker-gray-bg);
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .newMessagesBar-1hF-9G {
